@@ -1,0 +1,234 @@
+.product-card {
+    width: calc(100% / 5 - 20px); /* Set default width for 3 cards per row */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {
+    .product-card {
+        width: calc(100% / 5 - 20px); /* Set width for 2 cards per row */
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .product-card {
+        width: 100%; /* Set full width for 1 card per row */
+    }
+}
+
+/* Style the labels */
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the input fields */
+input[type=text], input[type=email] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #0077FF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change the color of the placeholder text */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #AAA;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #AAA;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #AAA;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #AAA;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #AAA;
+}
+
+
+/* Form popup styling */
+    .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    }
+
+    .form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    }
+
+    /* Add to cart button styling */
+    .add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    }
+
+    /* Button hover effect */
+    .add-to-cart-btn:hover {
+    background-color: #3e8e41;
+    }
+
+    /* Cancel button styling */
+    .cancel {
+    background-color: #f44336;
+    }
+
+    /* Cancel button hover effect */
+    .cancel:hover {
+    background-color: #da190b;
+    color: white;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+      
+      header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 1rem 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      }
+      
+      .logo {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      nav li {
+        margin-left: 1rem;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+      
+      nav a:hover {
+        color: #0056b3;
+      }
+      
+      main {
+        margin: 2rem 0;
+      }
+      
+      .product {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        padding: 1rem;
+        text-align: center;
+      }
+      
+      .product img {
+        max-width: 100%;
+      }
+      
+      .product h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+      }
+      
+      .product p {
+        font-size: 1.25rem;
+        margin: 1rem 0;
+      }
+      
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 2rem;
+        padding: 1rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      button:hover {
+        background-color: #0069d9;
+      }
+
+      .popup {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        z-index: 9999;
+      }
+  
+      .popup label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+  
+      .popup input[type="text"], .popup input[type="email"], .popup textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+      }
+  
+      .popup button[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      @charset "UTF-8";
+      

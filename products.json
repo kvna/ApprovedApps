@@ -1,0 +1,75 @@
+[
+	{
+	"Software Name": "Adobe Reader Whatever ",
+	"Version": "12.4.3",
+	"License Type": "Freeware",
+	"Image": "adobereader.jpg?text=Adobe+Reader"
+}, {
+	"Software Name": "Adobe Photoshop ",
+	"Version": "CS 2022",
+	"License Type": "Enterprise Licence",
+	"Image": "AdobePhotoshop.jpg?text=Product+B"
+}, {
+	"Software Name": "Microsoft Visio",
+	"Version": "3.0",
+	"License Type": "Enterprise Licence",
+	"Image": "Visio.jpg?text=Visio"
+}, {
+	"Software Name": "Microsoft Project",
+	"Version": "4.0",
+	"License Type": "Enterprise Licence",
+	"Image": "MSProject.png?text=MS+Project"
+},
+{
+	"Software Name": "Adobe Acrobat",
+	"Version": "12.4.3",
+	"License Type": "Single User",
+	"Image": "adobeacrobat.png?text=Adobe+Reader"
+}, {
+	"Software Name": "Adobe Photoshop ",
+	"Version": "CS 2022",
+	"License Type": "Single User",
+	"Image": "AdobePhotoshop.jpg?text=Product+B"
+}, {
+	"Software Name": "Microsoft Visio",
+	"Version": "3.0",
+	"License Type": "Single User",
+	"Image": "Visio.jpg?text=Visio"
+}, {
+	"Software Name": "Microsoft Project",
+	"Version": "4.0",
+	"License Type": "Single User",
+	"Image": "MSProject.png?text=MS+Project"
+},
+{
+	"Software Name": "Adobe Premiere Pro",
+	"Version": "5.0",
+	"License Type": "Single User",
+	"Image": "AdobePremierePro.png?text=Product+E"
+}, {
+	"Software Name": "Adobe Illustrator",
+	"Version": "6.0",
+	"License Type": "Single User",
+	"Image": "AdobeIllustrator.png?text=Product+F"
+}, {
+	"Software Name": "XMind",
+	"Version": "7.0",
+	"License Type": "Single User",
+	"Image": "xmind.png?text=Product+G"
+}, {
+	"Software Name": "7-Zip ",
+	"Version": "8.0",
+	"License Type": "Freeware",
+	"Image": "sample.jpg?text=Product+H"
+}, {
+	"Software Name": "Notepad++",
+	"Version": "9.0",
+	"License Type": "Freeware",
+	"Image": "Notepad.png?text=Product+I"
+}, {
+	"Software Name": "SnagIT",
+	"Version": "10.0",
+	"License Type": "Single User",
+	"Image": "snagit.png?text=Product+J"
+}
+]
